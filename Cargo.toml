@@ -1,0 +1,15 @@
+[package]
+name = "img-hash-extern"
+version = "0.1.0"
+authors = ["Austin Bonander <austin.bonander@gmail.com>"]
+
+[lib]
+name = "img_hash_extern"
+crate-type = ["dylib"]
+
+[dependencies]
+image = "*"
+
+[dependencies.img-hash]
+path = "../"
+
